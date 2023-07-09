@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<persistence version="2.1"
+xmlns="http://xmlns.jcp.org/xml/ns/persistence"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+<persistence-unit name="raj">
+<class>com.shishodia.basic.entity.Employee</class>
+<properties>
+<property name="hibernate.dialect" value="org.hibernate.dialect.MySQL8Dialect"></property>
+<property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"></property>
+<property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/kalu"></property>
+<property name="javax.persistence.jdbc.user" value="root"></property>
+<property name="javax.persistence.jdbc.password" value="tyagig@612_ankita"></property>
+<property name="javax.persistence.schema-generation.database.action" value="update"></property>
+</properties>
+</persistence-unit>
+</persistence>
